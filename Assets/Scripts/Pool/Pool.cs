@@ -14,7 +14,7 @@ public class Pool : MonoBehaviour
         Instance = this;
     }
 
-    public GameObject GetFromPool()
+    public GameObject GetFromPool(int index)
     {
         if (availableObjects.Count == 0)
             GrowPool();

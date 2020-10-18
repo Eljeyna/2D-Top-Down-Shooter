@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffb9a7a35bee0c4796d6a59606ffe5d, type: 3}
   m_Name: BulletPistolSoldier
   m_EditorClassIdentifier: 
+  damage: 5
   speed: 5
-  radius: 0
   timeFade: 3
+  radius: 0

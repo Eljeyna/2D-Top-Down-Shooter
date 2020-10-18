@@ -37,13 +37,7 @@ public class PistolSoldier : Gun
         if (clip != -1)
             clip--;
 
-        GameObject bullet = Pool.Instance.GetFromPool();
-        Bullet bulletPistol = bullet.GetComponent<Bullet>();
-        bulletPistol.owner = thisEntity;
-        bulletPistol.baseTag = baseTag.entityTag;
-        //bulletPistol.damage = damage;
-        bullet.transform.position = laserStartPosition.position;
-        bullet.transform.rotation = transform.rotation;
+        BulletSetup(Pool.Instance.GetFromPool(0));
 
         nextAttack = Time.time + gunData.fireRatePrimary;
     }
@@ -69,5 +63,14 @@ public class PistolSoldier : Gun
         reloading = true;
 
         return true;
+    }
+
+    public void BulletSetup(GameObject bullet)
+    {
+        Bullet bulletPistol = bullet.GetComponent<Bullet>();
+        bulletPistol.owner = thisEntity;
+        bulletPistol.baseTag = baseTag.entityTag;
+        bullet.transform.position = laserStartPosition.position;
+        bullet.transform.rotation = transform.rotation;
     }
 }

@@ -2270,6 +2270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234617015}
+  - component: {fileID: 1234617016}
   m_Layer: 0
   m_Name: _BULLET POOLS
   m_TagString: Untagged
@@ -2292,6 +2293,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234617016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234617014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2775755df047c4bbc2a8a144dd63a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pistolBulletPrefab: {fileID: 9212651080065554936, guid: 9735c1c201260e64fac5ff0a6ffa046c, type: 3}
 --- !u!1 &1247690978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3742,7 +3756,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1946741272}
-  - component: {fileID: 1946741273}
   m_Layer: 0
   m_Name: PISTOL BULLET POOL
   m_TagString: Untagged
@@ -3764,19 +3777,6 @@ Transform:
   m_Father: {fileID: 1234617015}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1946741273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946741271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a2775755df047c4bbc2a8a144dd63a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pistolBulletPrefab: {fileID: 9212651080065554936, guid: 9735c1c201260e64fac5ff0a6ffa046c, type: 3}
 --- !u!1 &1993501753
 GameObject:
   m_ObjectHideFlags: 0
