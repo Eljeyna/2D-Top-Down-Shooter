@@ -41,6 +41,17 @@ public class TopDownPlayerController : MonoBehaviour
         GameManager.GetPlayer();
     }
 
+    private void FixedUpdate()
+    {
+        if (state == GameManager.State.Normal)
+        {
+            if (moveVelocity != Vector2.zero)
+            {
+                rb2d.MovePosition(rb2d.position + moveVelocity * Time.fixedDeltaTime);
+            }
+        }
+    }
+
     private void Update()
     {
         switch(state)
@@ -66,11 +77,6 @@ public class TopDownPlayerController : MonoBehaviour
         rb2d.rotation = angle;
 
         moveVelocity = moving.normalized * speed;
-
-        if (moveVelocity != Vector2.zero)
-        {
-            rb2d.MovePosition(rb2d.position + moveVelocity * Time.fixedDeltaTime);
-        }
 
         if (attack && weapon.nextAttack <= Time.time)
         {

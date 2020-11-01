@@ -2,5 +2,5 @@
 
 public class BaseTag : MonoBehaviour
 {
-    [EnumFlagsAttribute] public Tags.EntityTags entityTag;
+    [EnumFlagsAttribute] public Tags entityTag;
 }

@@ -4,6 +4,6 @@ public abstract class Bullet : MonoBehaviour
 {
     public BulletData bulletData;
     public BaseEntity owner;
-    public Tags.EntityTags baseTag;
+    public Tags baseTag;
     [HideInInspector] public float nextFade;
 }

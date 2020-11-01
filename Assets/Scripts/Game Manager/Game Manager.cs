@@ -4,9 +4,9 @@ public static class GameManager
 {
     public enum State
     {
-        Normal = 0,
-        Dash = 1,
-        Stun = 2,
+        Normal  = 0,
+        Dash    = 1,
+        Stun    = 2,
     }
 
     public static Rigidbody2D player;

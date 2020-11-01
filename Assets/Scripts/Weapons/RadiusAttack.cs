@@ -11,8 +11,8 @@ public class RadiusAttack : MonoBehaviour
             BaseEntity thisEntity = attacker.GetComponent<BaseEntity>();
             foreach (Collider enemy in targets)
             {
-                Tags.EntityTags entityTag = enemy.GetComponent<BaseTag>().entityTag;
-                Tags.EntityTags attackerTag = attacker.GetComponent<BaseTag>().entityTag;
+                Tags entityTag = enemy.GetComponent<BaseTag>().entityTag;
+                Tags attackerTag = attacker.GetComponent<BaseTag>().entityTag;
                 if ((entityTag & attackerTag) == 0)
                 {
                     BaseEntity entity = enemy.GetComponent<BaseEntity>();

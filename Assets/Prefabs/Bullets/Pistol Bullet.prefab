@@ -124,4 +124,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletData: {fileID: 11400000, guid: bde94e77dd125ae4fb304a49243b4711, type: 2}
   owner: {fileID: 0}
-  damage: 0
+  baseTag: 0
+  nextFade: 0

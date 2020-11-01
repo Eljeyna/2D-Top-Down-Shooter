@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Characters
+  m_Name: Sprites
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -42,35 +42,72 @@ SpriteAtlas:
       enableTightPacking: 0
     variantMultiplier: 1
     packables:
+    - {fileID: 102900000, guid: c27c33151affb994f957554fc8c99b45, type: 3}
     - {fileID: 102900000, guid: 5bd5225ffda397a4483f2576bef31f06, type: 3}
-    totalSpriteSurfaceArea: 542537
+    - {fileID: 102900000, guid: 3b4b7b0f3c959f440b913fd626ea83e0, type: 3}
+    - {fileID: 102900000, guid: 40e7888bab3c44d479dbea95a9280c1a, type: 3}
+    - {fileID: 102900000, guid: 7e3cefb98cf23e64ab60a8725d048d04, type: 3}
+    - {fileID: 102900000, guid: b95780d0e1842b144b6e1dc6fa087e3c, type: 3}
+    totalSpriteSurfaceArea: 5260002
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: d9ec95a193fb06e4588cdbad4479e415, type: 3}
   - {fileID: 21300000, guid: 34f548021fc680c43b85d5ca4554a3cf, type: 3}
   - {fileID: 21300000, guid: 0accee02e58685f4888cfaccc236d6d7, type: 3}
+  - {fileID: 21300000, guid: 7468d81323d449d4bb1db0a6d47cb9d8, type: 3}
+  - {fileID: 21300000, guid: 9c340c63a1e21704ab4199e7ff2ffe97, type: 3}
+  - {fileID: 21300000, guid: 020b1164da6f1354a8673011bc72e1f4, type: 3}
+  - {fileID: 21300000, guid: d7c1f11534eebad4fb4fae2f948cea21, type: 3}
   - {fileID: 21300000, guid: e9607ca5fdf66f246aa99e0310f19756, type: 3}
+  - {fileID: 21300000, guid: 23a188e5d1a137046a7171bd35c14783, type: 3}
   - {fileID: 21300000, guid: 22b487f6aa6093247924e39630d56976, type: 3}
+  - {fileID: 21300000, guid: 852e4117d76c482409af6b7a27d90910, type: 3}
   - {fileID: 21300000, guid: bd5e7b2791b32474ca31bd3f91eee53a, type: 3}
+  - {fileID: 21300000, guid: fe6ee3889eb59c04a9bc2315b6d19630, type: 3}
   - {fileID: 21300000, guid: 7da21db8e8697b34cb8fce7f857b7608, type: 3}
   - {fileID: 21300000, guid: 549a5e6997b3e184db79ace923a3c3c6, type: 3}
   - {fileID: 21300000, guid: cb10d6798ae83574792ed6582e68f3fb, type: 3}
   - {fileID: 21300000, guid: 271fffa9ea8d6ff46aa04fe7b19b0ea0, type: 3}
   - {fileID: 21300000, guid: c6a1c73ab320bfa48a966be9ba6adcf4, type: 3}
+  - {fileID: 21300000, guid: 869896ba006149040875b72642ee98d8, type: 3}
+  - {fileID: 21300000, guid: 791bf76b5aaa06b4c8a898eb81d9de65, type: 3}
+  - {fileID: 21300000, guid: 499a344dbae7b4149bea547639aacabc, type: 3}
+  - {fileID: 21300000, guid: e38c66add3bb6c041a8809deece63372, type: 3}
   - {fileID: 21300000, guid: 322dc34ec8255a14f951a4420cdc34b6, type: 3}
+  - {fileID: 21300000, guid: 1783d70fcefc98c4d8b1ce6cf83a0dbe, type: 3}
+  - {fileID: 21300000, guid: f274ba5f092ae414a953ed6770cfda17, type: 3}
+  - {fileID: 21300000, guid: 312656df1ccf5bb4cbbba32d0ab5e59d, type: 3}
+  - {fileID: 21300000, guid: ce9a3fffe621c9444b24b14371cec4bf, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Tech
-  - Medic
+  - Corner
+  - Enemy Tech
+  - Enemy Medic
+  - Enemy Scout
+  - Enemy Clone
+  - White
+  - Enemy Nebulizer
   - Sniper
+  - Texture 3
   - Assault
+  - Texture 2
   - Pyro
-  - Heavy
+  - Car Projection
+  - Enemy Heavy
   - Support
-  - Cannoneer
-  - Engineer
-  - Brown Assault
+  - Enemy Cannoneer
+  - Enemy Engineer
+  - Enemy Brown Assault
+  - Wall
+  - Enemy Red Assault
+  - Decal
+  - Enemy Sniper
   - HeavyGunner
-  m_Tag: Characters
+  - Enemy Leader
+  - Texture 1
+  - Enemy Mutant
+  - Normal
+  m_Tag: Sprites
   m_IsVariant: 0

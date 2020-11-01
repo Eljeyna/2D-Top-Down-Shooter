@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PistolSoldier : Gun
+public class LaserPistol : Gun
 {
     public BaseEntity thisEntity;
     public BaseTag baseTag;

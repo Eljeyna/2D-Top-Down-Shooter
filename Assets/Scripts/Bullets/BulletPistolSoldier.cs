@@ -10,7 +10,7 @@ public class BulletPistolSoldier : Bullet
         if (nextFade >= bulletData.timeFade)
         {
             nextFade = 0f;
-            Pool.Instance.AddToPool(gameObject);
+            Pool.Instance.AddToPool(bulletData.index, gameObject);
         }
     }
 
@@ -18,7 +18,7 @@ public class BulletPistolSoldier : Bullet
     {
         if (collision.gameObject.layer == 8)
         {
-            Tags.EntityTags attackerTag = collision.collider.GetComponent<BaseTag>().entityTag;
+            Tags attackerTag = collision.collider.GetComponent<BaseTag>().entityTag;
             if ((baseTag & attackerTag) == 0)
             {
                 if (bulletData.radius > 0f)
@@ -33,6 +33,6 @@ public class BulletPistolSoldier : Bullet
             }
         }
 
-        Pool.Instance.AddToPool(gameObject);
+        Pool.Instance.AddToPool(bulletData.index, gameObject);
     }
 }
