@@ -23,6 +23,36 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 102900000, guid: b9a7d5584c9747d4c827190295da1279, type: 3}
     m_TargetAsset: {fileID: 102900000, guid: b9a7d5584c9747d4c827190295da1279, type: 3}
+  - m_GUID: 9735c1c201260e64fac5ff0a6ffa046c
+    m_Address: Assets/Prefabs/Bullets/Pistol Bullet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cc59f417d1791df498c745d1083670e7
+    m_Address: Assets/Prefabs/Decorations/Wall.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ef0db819feb41504b8373939d7609bef
+    m_Address: Assets/Prefabs/Enemies/Clone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: db84056c2d9142642b68c701559a2261
+    m_Address: Assets/Prefabs/Enemies/Soldier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bd3c3b9381eb3bd4a82d4acea0b2d260
+    m_Address: Assets/Prefabs/Players/Assault.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ad5feb1d874c8b34cb48404a19d620c3, type: 2}
   m_SchemaSet:

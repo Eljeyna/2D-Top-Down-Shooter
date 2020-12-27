@@ -40,6 +40,7 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: c27c33151affb994f957554fc8c99b45, type: 3}
@@ -109,5 +110,6 @@ SpriteAtlas:
   - Texture 1
   - Enemy Mutant
   - Normal
+  m_RenderDataMap: {}
   m_Tag: Sprites
   m_IsVariant: 0

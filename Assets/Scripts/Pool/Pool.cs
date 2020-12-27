@@ -4,7 +4,8 @@ using UnityEngine.AddressableAssets;
 
 public class Pool : MonoBehaviour
 {
-    public List<AssetReference> bulletPrefabs;
+    //public List<AssetReference> bulletPrefabs;
+    public List<GameObject> bulletPrefabs;
 
     private Queue<GameObject>[] availableObjects = new Queue<GameObject>[3];
 
@@ -31,7 +32,9 @@ public class Pool : MonoBehaviour
 
     private void GrowPool(int index)
     {
-        bulletPrefabs[index].InstantiateAsync(transform).Completed += handle => AddToPool(index, handle.Result);
+        //bulletPrefabs[index].InstantiateAsync(transform).Completed += handle => AddToPool(index, handle.Result);
+        GameObject instance = Instantiate(bulletPrefabs[index], transform);
+        AddToPool(index, instance);
     }
 
     public void AddToPool(int index, GameObject instance)
